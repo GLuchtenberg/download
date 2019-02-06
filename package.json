@@ -1,39 +1,39 @@
 {
-  "name": "downloadjs",
-  "main": "download.js",
-  "version": "1.4.9",
-  "description": "file downloading using client-side javascript",
-  "keywords": [
-    "files",
-    "dataURL",
-    "blob",
-    "download"
-  ],
-  "homepage": "http://gluchtenberg.com/download.html",
-  "license": "MIT",
-  "author": {
-    "name": "Gabriel",
-    "email": "gluchtenberg@users.noreply.github.com",
-    "url": "http://danml.com/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gluchtenberg/download.git"
-  },
-  "bugs": {
-    "email": "gluchtenberg@users.noreply.github.com"
-  },
-  "files": [
-    "download.js",
-    "download.min.js"
-  ],
-  "npmName": "downloadjs",
-  "npmFileMap": [
-    {
-      "basePath": "/",
-      "files": [
-        "*.js"
-      ]
-    }
-  ]
+    "name": "downloadjs-gabriel",
+    "main": "download.js",
+    "version": "1.4.9",
+    "description": "file downloading using client-side javascript",
+    "keywords": [
+        "files",
+        "dataURL",
+        "blob",
+        "download"
+    ],
+    "homepage": "http://gluchtenberg.com/download.html",
+    "license": "MIT",
+    "author": {
+        "name": "Gabriel",
+        "email": "gluchtenberg@users.noreply.github.com",
+        "url": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gluchtenberg/download.git"
+    },
+    "bugs": {
+        "email": "gluchtenberg@users.noreply.github.com"
+    },
+    "files": [
+        "download.js",
+        "download.min.js"
+    ],
+    "npmName": "downloadjs",
+    "npmFileMap": [
+        {
+            "basePath": "/",
+            "files": [
+                "*.js"
+            ]
+        }
+    ]
 }

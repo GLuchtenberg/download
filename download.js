@@ -26,7 +26,7 @@
 
 		var self = window, // this script is only for browsers anyway...
 			defaultMime = "application/octet-stream", // this default mime also triggers iframe downloads
-            defaultOptions: [],
+            defaultOptions= [],
             options = options || defaultOptions,
 			mimeType = strMimeType || defaultMime,
 			payload = data,
@@ -50,9 +50,7 @@
 			fileName = url.split("/").pop().split("?")[0];
 			anchor.href = url; // assign href prop to temp anchor
 		  	if(anchor.href.indexOf(url) !== -1){ // if the browser determines that it's a potentially valid url path:
-                const {
-                    AccessControlAllowOrigin
-                } = options;
+                var AccessControlAllowOrigin = options.AccessControlAllowOrigin;
         		var ajax=new XMLHttpRequest();
         		ajax.open( "GET", url, true);
         		ajax.responseType = 'blob';
